@@ -1,0 +1,45 @@
+﻿@using TodoApp.Models
+@model TodoViewModel
+
+@{
+    ViewData["Title"] = "Todo Details";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Todo Details</h2>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">@Model.Title</h5>
+
+                    <div class="mb-3">
+                        <strong>Description:</strong>
+                        <p class="card-text">@(Model.Description ?? "No description")</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <strong>Status:</strong>
+                        <span class="badge @(Model.IsCompleted ? "bg-success" : "bg-warning")">
+                            @(Model.IsCompleted ? "Completed" : "Pending")
+                        </span>
+                    </div>
+
+                    @if (Model.DueDate.HasValue)
+                    {
+                        <div class="mb-3">
+                            <strong>Due Date:</strong>
+                            <p class="card-text">@Model.DueDate.Value.ToString("MMM dd, yyyy hh:mm tt")</p>
+                        </div>
+                    }
+
+                    <div class="btn-group">
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Edit</a>
+                        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

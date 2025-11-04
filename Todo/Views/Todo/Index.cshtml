@@ -1,0 +1,98 @@
+﻿@using TodoApp.Models
+@model IEnumerable<TodoViewModel>
+
+@{
+    ViewData["Title"] = "Todo List";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>My Todo List</h1>
+        <a asp-action="Create" class="btn btn-primary">Add New Todo</a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            <h4 class="alert-heading">No todos found!</h4>
+            <p class="mb-0">You don't have any todos yet. <a asp-action="Create" class="alert-link">Create your first todo</a> to get started.</p>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            <!-- Pending Todos -->
+            <div class="col-md-6">
+                <h3 class="text-warning">Pending (@Model.Count(t => !t.IsCompleted))</h3>
+                @foreach (var item in Model.Where(t => !t.IsCompleted))
+                {
+                    <div class="card mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Title</h5>
+                            @if (!string.IsNullOrEmpty(item.Description))
+                            {
+                                <p class="card-text">@item.Description</p>
+                            }
+                            @if (item.DueDate.HasValue)
+                            {
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        Due: @item.DueDate.Value.ToString("MMM dd, yyyy")
+                                    </small>
+                                </p>
+                            }
+                            <div class="btn-group btn-group-sm">
+                                <form asp-action="ToggleStatus" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-success">Complete</button>
+                                </form>
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-outline-primary">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info">Details</a>
+                                <form asp-action="Delete" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-outline-danger"
+                                            onclick="return confirm('Are you sure you want to delete this todo?')">
+                                        Delete
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <!-- Completed Todos -->
+            <div class="col-md-6">
+                <h3 class="text-success">Completed (@Model.Count(t => t.IsCompleted))</h3>
+                @foreach (var item in Model.Where(t => t.IsCompleted))
+                {
+                    <div class="card mb-3 border-success">
+                        <div class="card-body">
+                            <h5 class="card-title text-success">
+                                <s>@item.Title</s>
+                            </h5>
+                            @if (!string.IsNullOrEmpty(item.Description))
+                            {
+                                <p class="card-text"><s>@item.Description</s></p>
+                            }
+                            <div class="btn-group btn-group-sm">
+                                <form asp-action="ToggleStatus" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-warning">Mark as Pending</button>
+                                </form>
+                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-outline-info">Details</a>
+                                <form asp-action="Delete" method="post" class="d-inline">
+                                    <input type="hidden" name="id" value="@item.Id" />
+                                    <button type="submit" class="btn btn-outline-danger"
+                                            onclick="return confirm('Are you sure you want to delete this todo?')">
+                                        Delete
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+</div>
