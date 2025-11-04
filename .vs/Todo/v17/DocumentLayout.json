@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\aolan\\source\\repos\\Todo\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\views\\todo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\models\\todoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\services\\itodoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\reposptories\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\reposptories\\itodorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\reposptories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\reposptories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|c:\\users\\aolan\\source\\repos\\todo\\todo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{23213184-8D76-40B1-8651-D162E5A4F590}|Todo\\Todo.csproj|solutionrelative:todo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,6 +103,136 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Views\\Todo\\Index.cshtml",
+              "RelativeDocumentMoniker": "Todo\\Views\\Todo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Views\\Todo\\Index.cshtml",
+              "RelativeToolTip": "Todo\\Views\\Todo\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T15:48:34.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "Todo\\Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "Todo\\Controllers\\TodoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T15:48:18.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TodoItem.cs",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Models\\TodoItem.cs",
+              "RelativeDocumentMoniker": "Todo\\Models\\TodoItem.cs",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Models\\TodoItem.cs",
+              "RelativeToolTip": "Todo\\Models\\TodoItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T15:45:19.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TodoService.cs",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Services\\TodoService.cs",
+              "RelativeDocumentMoniker": "Todo\\Services\\TodoService.cs",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Services\\TodoService.cs",
+              "RelativeToolTip": "Todo\\Services\\TodoService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T15:44:42.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Reposptories\\IRepository.cs",
+              "RelativeDocumentMoniker": "Todo\\Reposptories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Reposptories\\IRepository.cs",
+              "RelativeToolTip": "Todo\\Reposptories\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T15:43:36.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITodoService.cs",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Services\\ITodoService.cs",
+              "RelativeDocumentMoniker": "Todo\\Services\\ITodoService.cs",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Services\\ITodoService.cs",
+              "RelativeToolTip": "Todo\\Services\\ITodoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T15:44:10.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITodoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Reposptories\\ITodoRepository.cs",
+              "RelativeDocumentMoniker": "Todo\\Reposptories\\ITodoRepository.cs",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Reposptories\\ITodoRepository.cs",
+              "RelativeToolTip": "Todo\\Reposptories\\ITodoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T15:44:07.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\appsettings.json",
+              "RelativeDocumentMoniker": "Todo\\appsettings.json",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\appsettings.json",
+              "RelativeToolTip": "Todo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-03T15:21:04.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Todo\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Todo\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBkAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T13:01:07.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Program.cs",
+              "RelativeDocumentMoniker": "Todo\\Program.cs",
+              "ToolTip": "C:\\Users\\aolan\\source\\repos\\Todo\\Todo\\Program.cs",
+              "RelativeToolTip": "Todo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-02T22:09:13.984Z",
+              "EditorCaption": ""
             }
           ]
         }
